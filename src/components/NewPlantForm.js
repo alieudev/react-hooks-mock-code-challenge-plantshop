@@ -10,7 +10,7 @@ function NewPlantForm({onNewPlant}) {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-
+    onNewPlant(formData)
   }
   
   const handleName= (event) => {

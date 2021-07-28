@@ -29,7 +29,7 @@ function PlantPage() {
 
   return (
     <main>
-      <NewPlantForm onNewPlants ={onNewPlant} />
+      <NewPlantForm onNewPlant ={onNewPlant} />
       <Search plants={plants} onSearchData={onSearchData}/>
       <PlantList plants={filteredPlants} />
     </main>
